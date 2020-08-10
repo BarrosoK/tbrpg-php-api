@@ -1,0 +1,27 @@
+[globals]
+
+# Debug mode 0 for production and 3 for development
+DEBUG=3
+
+# Database settings
+db_prefix=
+db_host=localhost
+db_port=3306
+db_name=tbrpg
+db_user=root
+db_pass=
+
+# FALSE for Development mode and TRUE for Production mode
+db_freeze=FALSE
+
+# Timezone
+timezone=Asia/Jakarta
+
+# Security key
+jwt_secret=jwtSecret1234
+
+# Apple Appstore
+appstore_is_sandbox=TRUE
+
+# Google Play
+play_public_key=
